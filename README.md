@@ -1,8 +1,15 @@
-# React + Vite
+# Contact App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The frontend of this app was develop in React with the use of Node.js. This time the installation is way simpler, just use the following commands:
 
-Currently, two official plugins are available:
+```
+cd frontEnd
+npm i
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+An .env.example file is included in this project, just add the url of the backend running into the VITE_APIURL variable without any aditional endpoint and rename the file to .env.
+
+```
+VITE_APIURL=http://domain:port
+```
