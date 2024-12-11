@@ -1,6 +1,6 @@
 # Contact App
 
-The frontend of this app was develop in React with the use of Node.js. This time the installation is way simpler, just use the following commands:
+The frontend of this app was develop in React with the use of Node.js. This time the installation is simpler, just use the following commands:
 
 ```
 cd frontEnd
