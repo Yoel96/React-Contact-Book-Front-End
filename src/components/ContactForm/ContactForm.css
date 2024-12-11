@@ -1,0 +1,98 @@
+#contactFormCard{
+    width:90%;
+    padding:7% 5%;
+}
+
+#contactFormCard h2{
+    margin: 1% 0% 4% 0%;
+}
+
+#contactFormCard .inputContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+}
+
+#contactFormCard label{
+    font-size: 15px;
+    color:rgb(152, 152, 152);
+    padding-bottom:5px;
+}
+
+#contactFormCard button{
+    align-self: end;
+    margin-top: 4%;
+    padding: 2% 4%;
+    border-radius: 3%;
+}
+
+
+#contactFormCard .warningAlert, #contactFormCard .successAlert{
+    margin-top: 3%;
+    padding: 0%;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+#contactFormCard .warningAlert p, #contactFormCard .successAlert p{
+    padding: 0.5% 1%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 992px) {
+    .hideCard{
+        display: none;
+    }
+
+    .showCard{
+        position: absolute;
+        display: block;
+    }
+
+    #contactFormCard{
+        width: 80%;
+        position: fixed;
+        left: 5%;
+    }
+
+    #showFormButton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        position: fixed;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        bottom: 2%;
+        right:6%;
+        background-color: rgb(189, 63, 228);
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    #showFormButton span {
+        height: 100%;
+    }
+
+  }
+  
+
+@media only screen and (min-width: 992px) {
+
+    #showFormButton{
+        display: none;
+    }
+    #contactFormContainer{
+        padding: 0% 2%;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+}
+

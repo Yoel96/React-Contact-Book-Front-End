@@ -1,0 +1,85 @@
+body{
+  background: rgb(248,230,255);
+  background: linear-gradient(90deg, rgba(248,230,255,0.3) 0%, rgba(220,220,255,0.3) 35%, rgba(211,248,255,0.3) 100%);
+  margin: 0;
+  display: flex;
+  align-items: start;
+  min-height: 100vh;
+
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #213547;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+label{
+  font-size: 15px;
+  color:rgb(152, 152, 152);
+  padding-bottom:5px;
+}
+
+input{
+  color: #213547;
+  border: 0px;
+  border-bottom: 2px rgb(202, 213, 255) solid ;
+}
+
+select{
+  background: none;
+  color: #213547;
+  border: 0px;
+  border-bottom: 2px rgb(202, 213, 255) solid ;
+}
+
+input:read-only, input:read-only:hover{
+  border: 0px;
+  border-bottom: 2px rgb(255, 255, 255) solid ;
+  cursor:default;
+}
+
+
+input:hover{
+  border-bottom:  2px rgb(154, 142, 255) solid ;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+h2{
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-family: inherit;
+  background:none;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+a{
+  color:rgb(152, 152, 152);
+  text-decoration: none;
+}
+
+ 
+a:hover {
+ 
+    font-weight: bold;
+}
+

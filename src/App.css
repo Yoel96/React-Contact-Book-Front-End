@@ -1,0 +1,62 @@
+#root{
+    width: 100%;
+    min-height: 90vh;
+}
+
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color:white;
+    border-radius: 2%;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+}
+
+.cardActions{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    margin-top: 4%;
+    gap:3%;
+}
+
+.warningAlert, .successAlert{
+    width: 100%;
+}
+
+.successAlert{
+    background-color: rgb(74, 225, 69);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1% ;
+    margin-top: 1%;
+}
+
+.warningAlert{
+    background-color: rgb(255, 158, 158);
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1%  0%;
+}
+
+
+.actionButton{
+    background-color: rgb(178, 12, 229);
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 2%;
+}
+
+.actionButton:hover{
+    background-color: rgb(189, 63, 228);
+}

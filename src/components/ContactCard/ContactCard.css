@@ -1,0 +1,95 @@
+.cardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:2%;
+}
+
+.cardHeader input{
+    width:80%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.cardHeader button{
+    background:none ;
+    color: black;
+    padding: 0;
+    height: auto;
+}
+
+.cardForm .inputContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0px;
+}
+
+.cardForm input{
+    padding-bottom: 0px 0px 4px 0px;
+}
+
+.cardForm label{
+    font-size: 15px;
+    color:rgb(152, 152, 152);
+    padding-bottom:5px;
+}
+
+.contactCard .warningAlert p, .contactCard .successAlert p{
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+}
+
+.cardActions .editButton , .cardActions .cancelEditButton{
+    color:rgb(152, 152, 152);
+    font-size: 16px;
+}
+
+.cardActions .editButton:hover , .cardActions .cancelEditButton:hover{
+    color:rgb(133, 133, 133);
+    font-weight: bold;
+}
+
+
+.cardActions .editButton{
+    font-weight: bold;
+}
+
+.cardActions .saveEditButton{
+    padding: 1px 10px;
+}
+
+@media only screen and (max-width: 864px) {
+    .contactCard{
+        padding: 5%;
+        width:87%
+    }
+
+    .cardHeader button{
+        margin:  -5% -1% 0% 0%;
+    }
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 864px)  {
+    .contactCard{
+        padding: 2% 2%;
+        width:40%
+    }
+
+    .cardHeader button{
+        margin: -43px -11px 0px 0px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .contactCard{
+        padding: 2%;
+        width: 20%
+    }
+
+    .cardHeader button{
+        margin: -15% -5% 0% 0%
+    }
+}

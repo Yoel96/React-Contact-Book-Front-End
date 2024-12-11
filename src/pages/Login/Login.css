@@ -1,0 +1,46 @@
+#loginCard{
+    padding:2%;
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#loginForm button{
+    padding: 2% 3%;
+    font-weight: bold;
+}
+
+#loginForm a{
+    font-size: 14px;
+}
+
+.warningAlert{
+    margin-top: 3%;
+ 
+}
+.warningAlert p{
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (max-width: 864px) {
+    #loginCard{
+        width:70%
+    }
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 864px)  {
+    #loginCard{
+        width:40%
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    #loginCard{
+        width:20%
+    }
+}
+
+

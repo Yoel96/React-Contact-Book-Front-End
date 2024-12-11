@@ -1,0 +1,43 @@
+#signUpCard{
+    padding:2%;
+}
+
+#signUpForm{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#signUpForm button{
+    padding: 2% 3%;
+    font-weight: bold;
+}
+
+#signUpForm a{
+    font-size: 14px;
+}
+
+.warningAlert p, .successAlert p{
+    text-align: center;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 864px) {
+    #signUpCard{
+        width:70%
+    }
+}
+
+
+@media only screen and (max-width: 1080px) and (min-width: 864px)  {
+    #signUpCard{
+        width:40%
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    #signUpCard{
+        width:20%
+    }
+}
